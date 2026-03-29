@@ -1,0 +1,19 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "black-formatter.interpreter": [
+        "${workspaceFolder}/.venv/bin/python3"
+    ],
+    "black-formatter.args": [
+        "--config=.vscode/other-config.toml"
+    ],
+    "python.analysis.typeCheckingMode": "standard",
+    "python.testing.pytestArgs": []
+}
