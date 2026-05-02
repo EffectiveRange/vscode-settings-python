@@ -15,5 +15,12 @@
         "--config=.vscode/other-config.toml"
     ],
     "python.analysis.typeCheckingMode": "standard",
-    "python.testing.pytestArgs": []
+    "python.testing.pytestArgs": [],
+    "python-envs.pythonProjects": [
+        {
+            "path": ".",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
 }
