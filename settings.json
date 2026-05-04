@@ -22,5 +22,6 @@
             "envManager": "ms-python.python:venv",
             "packageManager": "ms-python.python:pip"
         }
-    ]
+    ],
+    "editor.formatOnSave": true
 }
